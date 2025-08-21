@@ -13,7 +13,7 @@ The framework seamlessly integrates feature compression via a variational autoen
 </div><br>    
 
 <!-- 对比 -->
-* ## **_Model complexity and quantitative evaluation metrics_**
+* ## 🏦 **_Model complexity and quantitative evaluation metrics_**
 The computational complexity and structural quality metrics of CondUNet-S, B, L, X and DiT are quantitatively compared in the following Table.
 | Model | Params (M) | FLOPs (G) | MACs (G) | FID | COV | PREC | SSIM |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -23,8 +23,8 @@ The computational complexity and structural quality metrics of CondUNet-S, B, L,
 | CondUNet-X | 99.91 | 4.43 | 2.21 | 11.592	| 0.886	| 0.853	| 0.658 |
 | **Diffusion Transformer** | **138.09** | **5.49**	| **2.75** | **11.367 ↓** | **0.889 ↑** | **0.943 ↑** | **0.676 ↑** |
 
-<!-- 逆向设计 -->
-* ## 🧭 **_Overview of the workflow_**
+<!-- 验证 -->
+* ## 🔬 **_Results and validation_**
 Experimental tests on selected inverse-designed microstructures showed good agreement with the finite element results and satisfied the predefined mechanical performance requirements.
 <div align=center>
     <img width="1000" src="Figs/2.png"/>
