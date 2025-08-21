@@ -12,6 +12,10 @@ The framework seamlessly integrates feature compression via a variational autoen
    <div align=center><strong>Fig. 1. Workflow of the generative framework for damping microstructures</strong></div>
 </div><br>    
 
+* ## ⚛️ **_Checkpoints_**
+ The dataset used in this study contains more than 140,000 samples. By applying clustering and latent space transformation, the training complexity was reduced by over 90%. The checkpoints of the diffusion model are provided in the link below.     
+[**🔗The checkpoints of the Models**](https://github.com/AshenOneme/MultiDampGen/releases/tag/Weights)
+
 * ## ⚛️ **_TXT2CAE_**
   The **_TXT2CAE_** tool can convert images into three-dimensional models, which can then be directly meshed in ABAQUS and further utilized for industrial manufacturing.[**🔗TXT2CAE**](https://github.com/AshenOneme/MultiDampGen)   
   <div align=center>
