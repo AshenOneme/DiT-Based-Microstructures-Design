@@ -19,8 +19,6 @@ The framework seamlessly integrates feature compression via a variational autoen
    <div align=center><strong>Fig. 2. The TXT2CAE tool</strong></div>
 </div><br>    
 
-
-
 <!-- 对比 -->
 * ## 🏦 **_Model complexity and quantitative evaluation metrics_**
 The computational complexity and structural quality metrics of CondUNet-S, B, L, X and DiT are quantitatively compared in the following Table.
