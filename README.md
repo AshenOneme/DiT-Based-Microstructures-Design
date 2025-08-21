@@ -13,7 +13,7 @@ The framework seamlessly integrates feature compression via a variational autoen
 </div><br>    
 
 * ## ⚛️ **_Checkpoints_**
- The dataset used in this study contains more than 140,000 samples. By applying clustering and latent space transformation, the training complexity was reduced by over 90%. The checkpoints of the diffusion model are provided in the link below.     
+ The dataset used in this study contains more than **_140,000 samples_**. By applying clustering and latent space transformation, the training complexity was reduced by **_over 90%_**. The checkpoints of the diffusion model are provided in the link below.     
 [**🔗The checkpoints of the Models**](https://github.com/AshenOneme/DiT-Based-Microstructures-Design/releases/tag/Checkpoint_Microstructure_Design)
 
 * ## ⚛️ **_TXT2CAE_**
