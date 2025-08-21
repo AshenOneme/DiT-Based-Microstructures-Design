@@ -31,4 +31,6 @@ Experimental tests on selected inverse-designed microstructures showed good agre
    <div align=center><strong>Fig. 2. Generated results of different models for the same target</strong></div>
   <img width="1000" src="Figs/3.png"/>
    <div align=center><strong>Fig. 3. Validation of generated results</strong></div>
+    <img width="1000" src="Figs/4.gif"/>
+   <div align=center><strong>Fig. 4. Low-cycle reciprocating loading process</strong></div>
 </div><br>    
