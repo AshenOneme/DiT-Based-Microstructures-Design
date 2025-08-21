@@ -11,3 +11,16 @@ The framework seamlessly integrates feature compression via a variational autoen
   <img width="1000" src="Figs/1.png"/>
    <div align=center><strong>Fig. 1. Workflow of the generative framework for damping microstructures</strong></div>
 </div><br>    
+
+<!-- HPPN信息 -->
+* ## **_Discriminator parameters and test error_**
+8 neural network models were employed to construct the generator, with *__ResNet18__* ultimately selected as the HPPN. The parameter information and errors for each model are presented in the table.
+
+| Model | Params (M) | FLOPs (G) | MACs (G) | FID | COV | PREC | SSIM |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| CondUNet-S | 24.33 | 2.91 | 1.46 | 13.535 | 0.869 | 0.902 | 0.651 |
+| CondUNet-B | 39.75 | 4.31 | 2.15 | 12.380 | 0.862	| 0.921	| 0.639 |
+| CondUNet-L | 84.67 | 7.06	| 3.53 | 12.373	| 0.850	| 0.934	| 0.658 |
+| CondUNet-X | 99.91 | 4.43 | 2.21 | 11.592	| 0.886	| 0.853	| 0.658 |
+| **DiT** | **138.09** | **5.49**	| **2.75** | **11.367** | **0.889** | **0.943** | **0.676** |
+
