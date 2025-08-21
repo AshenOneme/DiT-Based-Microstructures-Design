@@ -13,8 +13,8 @@ The framework seamlessly integrates feature compression via a variational autoen
 </div><br>    
 
 <!-- HPPN信息 -->
-* ## **_Discriminator parameters and test error_**
-8 neural network models were employed to construct the generator, with *__ResNet18__* ultimately selected as the HPPN. The parameter information and errors for each model are presented in the table.
+* ## **_Quantitative results of different models_**
+The computational complexity and structural quality metrics of CondUNet-S, B, L, X and DiT are quantitatively compared in Table 1.
 
 | Model | Params (M) | FLOPs (G) | MACs (G) | FID | COV | PREC | SSIM |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
