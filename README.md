@@ -4,6 +4,10 @@
   
 </div> 
 
+* ## ⚛️ **_Datasets & Pre-trained models_**
+  The multiscale microstructure dataset encompasses a total of *__50,000 samples__*. The dataset utilized in this study, along with the pre-trained weights of **_MultiDampGen_**, can be accessed through the link provided below.      
+[**🔗The damping microstructure dataset**](https://github.com/AshenOneme/MultiDampGen)   
+
 <!-- 逆向设计 -->
 * ## 🧭 **_Overview of the workflow_**
 The framework seamlessly integrates feature compression via a variational autoencoder-based TopoFormer, representative selection through latent-space clustering, and conditional latent diffusion transformers guided by full nonlinear shear and compression mechanical performance curves.
