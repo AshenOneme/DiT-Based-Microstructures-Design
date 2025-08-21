@@ -28,7 +28,7 @@ The computational complexity and structural quality metrics of CondUNet-S, B, L,
 | CondUNet-B | 39.75 | 4.31 | 2.15 | 12.380 | 0.862	| 0.921	| 0.639 |
 | CondUNet-L | 84.67 | 7.06	| 3.53 | 12.373	| 0.850	| 0.934	| 0.658 |
 | CondUNet-X | 99.91 | 4.43 | 2.21 | 11.592	| 0.886	| 0.853	| 0.658 |
-| **Diffusion Transformer** | **138.09** | **5.49**	| **2.75** | **11.367 ↓** | **0.889 ↑** | **0.943 ↑** | **0.676 ↑** |
+| **_Diffusion Transformer_** | **138.09** | **5.49**	| **2.75** | **11.367 ↓** | **0.889 ↑** | **0.943 ↑** | **0.676 ↑** |
 
 <!-- 验证 -->
 * ## 🔬 **_Results and validation_**
