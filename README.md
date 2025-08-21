@@ -16,7 +16,7 @@ The framework seamlessly integrates feature compression via a variational autoen
  The dataset used in this study contains more than **_140,000 samples_**. By applying clustering and latent space transformation, the training complexity was reduced by **_over 90%_**. The checkpoints of the diffusion model are provided in the link below.     
 [**🔗The checkpoints of the Models**](https://github.com/AshenOneme/DiT-Based-Microstructures-Design/releases/tag/Checkpoint_Microstructure_Design)
 
-* ## ⚛️ **_TXT2CAE_**
+* ## 🚀 **_TXT2CAE_**
   The **_TXT2CAE_** tool can convert images into three-dimensional models, which can then be directly meshed in ABAQUS and further utilized for industrial manufacturing.[**🔗TXT2CAE**](https://github.com/AshenOneme/MultiDampGen)   
   <div align=center>
   <img width="1000" src="Figs/T2C.png"/>
