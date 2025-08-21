@@ -4,10 +4,6 @@
   
 </div> 
 
-* ## ⚛️ **_Datasets & Pre-trained models_**
-  The multiscale microstructure dataset encompasses a total of *__50,000 samples__*. The dataset utilized in this study, along with the pre-trained weights of **_MultiDampGen_**, can be accessed through the link provided below.      
-[**🔗The damping microstructure dataset**](https://github.com/AshenOneme/MultiDampGen)   
-
 <!-- 逆向设计 -->
 * ## 🧭 **_Overview of the workflow_**
 The framework seamlessly integrates feature compression via a variational autoencoder-based TopoFormer, representative selection through latent-space clustering, and conditional latent diffusion transformers guided by full nonlinear shear and compression mechanical performance curves.
@@ -15,6 +11,15 @@ The framework seamlessly integrates feature compression via a variational autoen
   <img width="1000" src="Figs/1.png"/>
    <div align=center><strong>Fig. 1. Workflow of the generative framework for damping microstructures</strong></div>
 </div><br>    
+
+* ## ⚛️ **_TXT2CAE_**
+  The **_TXT2CAE_** tool can convert images into three-dimensional models, which can then be directly meshed in ABAQUS and further utilized for industrial manufacturing.[**🔗TXT2CAE**](https://github.com/AshenOneme/MultiDampGen)   
+  <div align=center>
+  <img width="1000" src="Figs/T2C.png"/>
+   <div align=center><strong>Fig. 2. The TXT2CAE tool</strong></div>
+</div><br>    
+
+
 
 <!-- 对比 -->
 * ## 🏦 **_Model complexity and quantitative evaluation metrics_**
@@ -32,9 +37,9 @@ The computational complexity and structural quality metrics of CondUNet-S, B, L,
 Experimental tests on selected inverse-designed microstructures showed good agreement with the finite element results and satisfied the predefined mechanical performance requirements.
 <div align=center>
     <img width="1000" src="Figs/2.png"/>
-   <div align=center><strong>Fig. 2. Generated results of different models for the same target</strong></div>
+   <div align=center><strong>Fig. 3. Generated results of different models for the same target</strong></div>
   <img width="1000" src="Figs/3.png"/>
-   <div align=center><strong>Fig. 3. Validation of generated results</strong></div>
+   <div align=center><strong>Fig. 4. Validation of generated results</strong></div>
     <img width="1000" src="Figs/4.gif"/>
-   <div align=center><strong>Fig. 4. Low-cycle reciprocating loading process</strong></div>
+   <div align=center><strong>Fig. 5. Low-cycle reciprocating loading process</strong></div>
 </div><br>    
