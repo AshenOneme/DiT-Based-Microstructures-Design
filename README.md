@@ -14,10 +14,7 @@ The framework seamlessly integrates feature compression via a variational autoen
 
 <!-- HPPN信息 -->
 * ## **_Model complexity and quantitative evaluation metrics_**
-The computational complexity and structural quality metrics of CondUNet-S, B, L, X and DiT are quantitatively compared in Table 1.
-<div align=center>
-# Quantitative results of different models
-</div> 
+The computational complexity and structural quality metrics of CondUNet-S, B, L, X and DiT are quantitatively compared in the following Table.
 | Model | Params (M) | FLOPs (G) | MACs (G) | FID | COV | PREC | SSIM |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | CondUNet-S | 24.33 | 2.91 | 1.46 | 13.535 | 0.869 | 0.902 | 0.651 |
