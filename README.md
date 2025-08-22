@@ -45,6 +45,8 @@ Experimental tests on selected inverse-designed microstructures showed good agre
   <img width="1000" src="Figs/3.png"/>
    <div align=center><strong>Fig. 4. Validation of generated results</strong></div>
 </div><br>
+
+* ## 🛠️ **_Experimental process_**
 Extensive experimental validations were conducted on the microstructures designed using the diffusion model. Both the proposed deep learning model and the finite element numerical model accurately reflect the real conditions.
 <div align=center>
     <img width="1000" src="Figs/4.gif"/>
