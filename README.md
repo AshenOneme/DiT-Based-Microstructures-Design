@@ -4,6 +4,8 @@
   
 </div> 
 
+> **I am pleased to report the publication of my first article on automated design using a diffusion model https://doi.org/10.1016/j.tws.2025.113865.**
+
 <!-- 逆向设计 -->
 * ## 🧭 **_Overview of the workflow_**
 The framework seamlessly integrates feature compression via a variational autoencoder-based TopoFormer, representative selection through latent-space clustering, and conditional latent diffusion transformers guided by full nonlinear shear and compression mechanical performance curves.
