@@ -33,10 +33,10 @@ def requires_grad(model, flag=True):
 
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-filepath='./LatentDiffusion/Dataset'
+filepath='../Dataset'
 dataset_train = DiffusionDataset(filepath+"/Dataset_Train.h5")
 train_loader = torch.utils.data.DataLoader(dataset=dataset_train,batch_size=64,shuffle=True)
-filepath='./LatentDiffusion/Dataset'
+filepath='../Dataset'
 dataset_val = DiffusionDataset(filepath+"/Dataset_Test.h5")
 val_loader = torch.utils.data.DataLoader(dataset=dataset_val,batch_size=64,shuffle=True)
 
@@ -101,4 +101,5 @@ for epoch in range(n_epochs):
 
 torch.save(model, r"./checkpoint/diffusionmodel_resume.pt")
 torch.save(ema, r"./checkpoint/diffusionmodel_ema.pt")
+
 
