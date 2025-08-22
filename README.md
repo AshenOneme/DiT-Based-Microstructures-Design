@@ -4,7 +4,7 @@
   
 </div> 
 
-> **_I am pleased to report the publication of my first article on automated design using diffusion models. https://doi.org/10.1016/j.tws.2025.113865._**
+> **_The advantage of this pipeline lies in its integration of a complete workflow, covering automatic design, three-dimensional modeling, industrial manufacturing, and mechanical simulation._**
 
 <!-- 逆向设计 -->
 * ## 🧭 **_Overview of the workflow_**
