@@ -3,7 +3,7 @@
 # Latent Diffusion–Driven Inverse Design of Damping Microstructures with Multiaxial Nonlinear Mechanical Targets
   
 </div> 
-> **_The dataset used in this study is extremely large; even after a 90% reduction, the numerical model still required 1.13 TB of memory. Public datasets for microstructure inverse design are currently very scarce. We are therefore pleased to share such datasets, and part of the curated data has already been made available at https://doi.org/10.1016/j.tws.2025.113865 and https://doi.org/10.1016/j.tws.2025.113865._**
+> **_The dataset used in this study is extremely large; even after a 90% reduction, the numerical model still required 1.13 TB of memory. Public datasets for microstructure inverse design are currently very scarce. We are therefore pleased to share such datasets, and part of the curated data has already been made available at https://doi.org/10.1016/j.tws.2025.113865 and https://doi.org/10.1016/j.tws.2025.113865._**    
 > **_The advantage of this pipeline lies in its integration of a complete workflow, covering automatic design, three-dimensional modeling, industrial manufacturing, and mechanical simulation._**
 
 <!-- 逆向设计 -->
