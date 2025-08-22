@@ -4,7 +4,7 @@
 
 </div> 
 
-The dataset used in this study is extremely large; even after a 90% reduction, the numerical model still required 1.13 TB of memory. Public datasets for microstructure inverse design are currently very scarce. We are therefore pleased to share such datasets, and part of the curated data has already been made available at [**_🔗TXT2CAE_**](https://github.com/AshenOneme/MultiDampGen) and https://doi.org/10.1016/j.tws.2025.113865.
+The dataset used in this study is extremely large; even after a 90% reduction, the numerical model still required 1.13 TB of memory. Public datasets for microstructure inverse design are currently very scarce. We are therefore pleased to share such datasets, and part of the curated data has already been made available at [**_🔗MultiDampGen_**](https://github.com/AshenOneme/MultiDampGen) and [**_🔗SSIDM_**](https://github.com/AshenOneme/SSIDM).
 
 > **_The advantage of this pipeline lies in its integration of a complete workflow, covering automatic design, three-dimensional modeling, industrial manufacturing, and mechanical simulation._**
 
