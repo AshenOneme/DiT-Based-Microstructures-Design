@@ -40,7 +40,7 @@ filepath='./LatentDiffusion/Dataset'
 dataset_val = DiffusionDataset(filepath+"/Dataset_Test.h5")
 val_loader = torch.utils.data.DataLoader(dataset=dataset_val,batch_size=64,shuffle=True)
 
-model_vae = torch.load(r'vaemodel.pt', weights_only=False)
+model_vae = torch.load(r'TopoFormer.pt', weights_only=False)
 model_vae=model_vae.to(device)
 model_vae.eval()
 
@@ -101,3 +101,4 @@ for epoch in range(n_epochs):
 
 torch.save(model, r"./checkpoint/diffusionmodel_resume.pt")
 torch.save(ema, r"./checkpoint/diffusionmodel_ema.pt")
+
