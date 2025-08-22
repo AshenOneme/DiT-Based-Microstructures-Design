@@ -22,7 +22,7 @@ val_loader = torch.utils.data.DataLoader(dataset=dataset_val,batch_size=32,shuff
 
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-model_vae = torch.load(r'vaemodel.pt', weights_only=False)
+model_vae = torch.load(r'TopoFormer.pt', weights_only=False)
 model_vae=model_vae.to(device)
 model_vae.eval()
 
@@ -71,3 +71,4 @@ for epoch in range(n_epochs):
         torch.save(net,f"./checkpoint/model{epoch}.pt")
 
 torch.save(net, r"./checkpoint/diffusionmodel.pt")
+
