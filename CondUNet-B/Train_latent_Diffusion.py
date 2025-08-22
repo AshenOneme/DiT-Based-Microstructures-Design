@@ -13,11 +13,11 @@ from UNet import ClassConditionedUnet_B
 import torch.optim as optim
 from Dataset import DiffusionDataset
 
-filepath='./LatentDiffusion/Dataset'
-dataset_train = DiffusionDataset(filepath+"../Dataset_Train.h5")
+filepath='../Dataset'
+dataset_train = DiffusionDataset(filepath+"/Dataset_Train.h5")
 train_loader = torch.utils.data.DataLoader(dataset=dataset_train,batch_size=32,shuffle=True)
-filepath='./LatentDiffusion/Dataset'
-dataset_val = DiffusionDataset(filepath+"../Dataset_Test.h5")
+filepath='../Dataset'
+dataset_val = DiffusionDataset(filepath+"/Dataset_Test.h5")
 val_loader = torch.utils.data.DataLoader(dataset=dataset_val,batch_size=32,shuffle=True)
 
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -71,5 +71,6 @@ for epoch in range(n_epochs):
         torch.save(net,f"./checkpoint/model{epoch}.pt")
 
 torch.save(net, r"./checkpoint/diffusionmodel.pt")
+
 
 
