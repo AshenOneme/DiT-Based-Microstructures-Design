@@ -58,8 +58,8 @@ Extensive experimental validations were conducted on the microstructures designe
 </div><br>    
 
 * ## 📑 **_Generation results_**
-We generated 64 different microstructures under a total of 8 types of targets.
-<div align=center>
-    <img width="1000" src="Figs/5.png"/>
+We generated 64 structures under a total of 8 types of targets. The finite element results verification is shown in Figure 6. Furthermore, in the latent space, we conducted SSIM calculations for these 64 generated results and the 10,000 types of microstructures in the overall dataset, as well as verification against the target error.
+<div align=center> 
+    <img width="1000" src="Figs/Fig. 5.png"/>
    <div align=center><strong>Fig. 6. Generation results</strong></div>
 </div><br>   
