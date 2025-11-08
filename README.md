@@ -56,3 +56,5 @@ Extensive experimental validations were conducted on the microstructures designe
     <img width="1000" src="Figs/4.gif"/>
    <div align=center><strong>Fig. 5. Low-cycle reciprocating loading process</strong></div>
 </div><br>    
+
+* ## 📑 **_Generation results_**
