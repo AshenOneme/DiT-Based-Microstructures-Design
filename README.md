@@ -58,3 +58,8 @@ Extensive experimental validations were conducted on the microstructures designe
 </div><br>    
 
 * ## 📑 **_Generation results_**
+We generated 64 different microstructures under a total of 8 types of targets.
+<div align=center>
+    <img width="1000" src="Figs/5.png"/>
+   <div align=center><strong>Fig. 6. Generation results</strong></div>
+</div><br>   
