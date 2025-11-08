@@ -62,4 +62,6 @@ We generated 64 structures under a total of 8 types of targets. The finite eleme
 <div align=center> 
     <img width="1000" src="Figs/Fig. 5.png"/>
    <div align=center><strong>Fig. 6. Generation results</strong></div>
+      <img width="1000" src="Figs/Fig. 6.png"/>
+   <div align=center><strong>Fig. 7. The structural similarity of the generative results</strong></div>
 </div><br>   
